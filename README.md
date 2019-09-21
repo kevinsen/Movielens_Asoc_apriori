@@ -14,7 +14,7 @@ https://rpubs.com/vitidN/203264 realice el split de generos
 en columnas definiendo variables dummies. Hecho esto se sumarizo y se conto
 la cantidad de peliculas en la que aparece cada etiqueta.
 
-![Alt text](kevinsen/Movielens_Asoc_apriori/blob/master/genre_count.png?raw=true "Movies Genres")
+![Alt text](genre_count.png?raw=true "Movies Genres")
 
 Luego de jugar con el set de movies se leyo el dataset de rankings
 cuyo size es de (20000263, 4). Precedi a dropear la columna de timestamp ya
@@ -41,7 +41,7 @@ rating
 4.5    1534824
 5.0    2898660
 
-![Alt text](kevinsen/Movielens_Asoc_apriori/blob/master/ratings_count.png?raw=true "Ratings count")
+![Alt text](ratings_count.png?raw=true "Ratings count")
 
 Se ordeno el dataset por userId y movieId. Eliminando la columna ratings
 (ya que no me serviria porque se que estoy evaluando a los mejores puntajes).
